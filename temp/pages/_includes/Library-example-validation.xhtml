@@ -1,0 +1,11 @@
+{% raw %}<table class="grid">
+<tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
+<tr><td>error</td><td>code-invalid</td><td>Library/example: Library.subject.ofType(CodeableConcept).coding[0]</td><td>Coding.system must be an absolute reference, not a local reference</td><td></td></tr>
+<tr><td>error</td><td>invalid</td><td>Library/example: Library.relatedArtifact[0].resource</td><td>Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve</td><td></td></tr>
+<tr><td>error</td><td>invalid</td><td>Library/example: Library.relatedArtifact[1].resource</td><td>Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve</td><td></td></tr>
+<tr><td>error</td><td>invalid</td><td>Library/example: Library.relatedArtifact[7].resource</td><td>Canonical URLs must be absolute URLs if they are not fragment references (TBD)</td><td></td></tr>
+<tr><td>error</td><td>invalid</td><td>Library/example: Library.dataRequirement[4].codeFilter[0].valueSet</td><td>Canonical URLs must be absolute URLs if they are not fragment references (TBD)</td><td></td></tr>
+<tr><td>information</td><td>informational</td><td>Library/example: Library</td><td>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Library</td><td></td></tr>
+<tr><td>information</td><td>unknown</td><td>Library/example: Library.subject.ofType(CodeableConcept).coding[0]</td><td>Code System URI 'hl7.org/fhir/resource-types' is unknown so the code cannot be validated</td><td></td></tr>
+</table>
+{% endraw %}

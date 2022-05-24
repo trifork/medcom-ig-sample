@@ -1,0 +1,10 @@
+I"[<p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="a-heading">A Heading</h3>
+<p>You can also use markdown if that’s your thing</p>
+
+<p>And an icon: <img src="icon-resource.png" alt="resource" /></p>
+
+:ET

@@ -1,0 +1,14 @@
+﻿<html>
+<head>
+  <title>Binary-logical-example-validation</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<table class="grid">
+<tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
+<tr><td>error</td><td>not-found</td><td>Binary</td><td>Example Logical Model http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical not found</td><td></td></tr>
+<tr><td>error</td><td>structure</td><td>Binary/logical-example: /?:MyLogical/?:element2</td><td>Text should not be present ('Text')</td><td></td></tr>
+<tr><td>error</td><td>invalid</td><td>Binary/logical-example: MyLogical</td><td>Specified profile type was 'http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical' in profile 'http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical', but found type 'MyLogical'</td><td></td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,406 @@
+{
+  "ImplementationGuide/example.fhir.uv.myig": {
+    "history": false,
+    "index": 0,
+    "source": "/Users/alinbaltatescu/Documents/sample-ig/input/myig.xml",
+    "sourceTail": "myig.xml",
+    "path": "ImplementationGuide-example.fhir.uv.myig.html",
+    "url": "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+    "version": "0.2.0",
+    "name": "YourComputableMyIGNameHere",
+    "title": "Your User Friendly Name for MyIG Here",
+    "experimental": false,
+    "date": "2022-05-24T09:31:43+02:00",
+    "description": "A brief description of what MyIG is about (probably the same text as in your readme)",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colstu",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "fmm": "1",
+      "status": "Draft"
+    },
+    "fmm": "1"
+  },
+  "Bundle/h1": {
+    "history": false,
+    "index": 13,
+    "source": "input/history/h1.json",
+    "sourceTail": "h1.json",
+    "path": "Bundle-h1.html"
+  },
+  "Observation/example": {
+    "history": false,
+    "index": 2,
+    "source": "input/examples/Observation-example.xml",
+    "sourceTail": "Observation-example.xml",
+    "path": "Observation-example.html",
+    "status": {
+      "class": "colsi",
+      "standards-status": "informative"
+    }
+  },
+  "Binary/example": {
+    "history": false,
+    "index": 3,
+    "source": "input/examples/Binary-example.json",
+    "sourceTail": "Binary-example.json",
+    "path": "Binary-example.html"
+  },
+  "Patient/example": {
+    "history": false,
+    "index": 4,
+    "source": "input/examples/Patient-example.xml",
+    "sourceTail": "Patient-example.xml",
+    "path": "Patient-example.html",
+    "status": {
+      "class": "colsi",
+      "standards-status": "informative"
+    }
+  },
+  "Library/example": {
+    "history": false,
+    "index": 5,
+    "source": "input/examples/Library-example.json",
+    "sourceTail": "Library-example.json",
+    "path": "Library-example.html",
+    "url": "http://somewhere.org/fhir/uv/myig/Library/example",
+    "version": "0.2.0",
+    "name": "Example",
+    "title": "Example CQL Library",
+    "experimental": true,
+    "date": "2022-05-24T09:31:43+02:00",
+    "description": "Some example library",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colsd",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "status": "Draft"
+    }
+  },
+  "ValueSet/valueset-no-codesystem": {
+    "history": false,
+    "index": 6,
+    "source": "input/resources/valueset-no-codesystem.xml",
+    "sourceTail": "valueset-no-codesystem.xml",
+    "path": "ValueSet-valueset-no-codesystem.html",
+    "url": "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem",
+    "version": "0.2.0",
+    "name": "ValueSetWithNoCodeSystem",
+    "title": "ValueSet with no code-system",
+    "experimental": true,
+    "date": "2015-06-22",
+    "description": "A sample value set where there\u0027s no known code system",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colsd",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "status": "Draft"
+    }
+  },
+  "StructureDefinition/myObservation": {
+    "history": true,
+    "index": 7,
+    "source": "input/resources/myObservation.xml",
+    "sourceTail": "myObservation.xml",
+    "path": "StructureDefinition-myObservation.html",
+    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",
+    "identifiers": "Some OID: 0.1.2.3.1, American Express: 0.1.2.3.2, ACSN: 0.1.2.3.3, 123: 0.1.2.3.4, : 0.1.2.3.5",
+    "version": "0.2.0",
+    "name": "MyObservation",
+    "title": "My Observation Profile",
+    "experimental": true,
+    "date": "2022-05-24T09:31:43+02:00",
+    "description": "A profile showing the use of XML to author profiles",
+    "contexts": "Gender: Female, Age Range: 2 months, Age Range: 3 mo, Age Range: 4, Age Range: ? to 1 months, Age Range: 2 to 5 years, Age Range: 10 years to ?, [Some location](http://example.org/Location/123), Some other location, [http://example.org/Location/456](http://example.org/Location/456), Clinical Venue: LOCATION-ABC",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colsd",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "status": "Draft"
+    },
+    "purpose": "Explain why this resource is necessary here",
+    "copyright": "Explain licensing or other legal limitations on use",
+    "keywords": "keyword 1, keyword 2"
+  },
+  "Library/example-sql": {
+    "history": false,
+    "index": 8,
+    "source": "input/resources/library-example-sql.xml",
+    "sourceTail": "library-example-sql.xml",
+    "path": "Library-example-sql.html",
+    "url": "http://somewhere.org/fhir/uv/myig/Library/example-sql",
+    "version": "0.2.0",
+    "name": "ExampleLibrary",
+    "title": "Example Library",
+    "experimental": true,
+    "date": "2020-05-15T00:00:00.000+10:00",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colsd",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "status": "Draft"
+    }
+  },
+  "Library/example-image": {
+    "history": false,
+    "index": 9,
+    "source": "input/resources/library-example-image.xml",
+    "sourceTail": "library-example-image.xml",
+    "path": "Library-example-image.html",
+    "url": "http://somewhere.org/fhir/uv/myig/Library/example-image",
+    "version": "0.2.0",
+    "name": "ExampleLibraryImage",
+    "title": "Example Library Image",
+    "experimental": true,
+    "date": "2020-05-15T00:00:00.000+10:00",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colsd",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "status": "Draft"
+    }
+  },
+  "ValueSet/valueset-fake": {
+    "history": false,
+    "index": 10,
+    "source": "input/resources/valueset-fake.xml",
+    "sourceTail": "valueset-fake.xml",
+    "path": "ValueSet-valueset-fake.html",
+    "url": "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake",
+    "version": "0.2.0",
+    "name": "ValueSetFake",
+    "title": "ValueSet fake",
+    "experimental": true,
+    "date": "2015-06-22",
+    "description": "A fake value",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colsd",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "status": "Draft"
+    }
+  },
+  "CodeSystem/cs-fake": {
+    "history": false,
+    "index": 11,
+    "source": "input/resources/codesystem-fake.xml",
+    "sourceTail": "codesystem-fake.xml",
+    "path": "CodeSystem-cs-fake.html",
+    "url": "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
+    "version": "0.2.0",
+    "name": "CodeSystemFake",
+    "title": "CodeSystem fake",
+    "experimental": true,
+    "date": "2015-06-22",
+    "description": "A fake code system",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colsd",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "status": "Draft"
+    }
+  },
+  "StructureDefinition/MyLogical": {
+    "history": false,
+    "index": 12,
+    "source": "input/resources/MyLogical.xml",
+    "sourceTail": "MyLogical.xml",
+    "path": "StructureDefinition-MyLogical.html",
+    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical",
+    "version": "0.2.0",
+    "name": "MyLogical",
+    "title": "My Logical Model",
+    "experimental": false,
+    "date": "2022-05-24T09:31:43+02:00",
+    "description": "A profile showing the use of Logical Models to author profiles",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colstu",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "fmm": "1",
+      "status": "Draft"
+    },
+    "fmm": "1",
+    "fmmSource": "FMM derived from: \r\nhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"
+  },
+  "StructureDefinition/ext-myExtension": {
+    "history": false,
+    "index": 14,
+    "source": "/Users/alinbaltatescu/Documents/sample-ig/input/resources/resources-spreadsheet.xml",
+    "sourceTail": "resources-spreadsheet.xml",
+    "path": "StructureDefinition-ext-myExtension.html",
+    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension",
+    "version": "0.2.0",
+    "name": "MyExtension",
+    "title": "My awesome extension",
+    "experimental": false,
+    "date": "2019-09-01",
+    "description": "What this extension means.",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colstu",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "fmm": "1",
+      "status": "Draft"
+    },
+    "purpose": "Why this extension exists.",
+    "fmm": "1",
+    "fmmSource": "FMM derived from: \r\nhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"
+  },
+  "StructureDefinition/mypatient": {
+    "history": false,
+    "index": 15,
+    "source": "/Users/alinbaltatescu/Documents/sample-ig/input/resources/resources-spreadsheet.xml",
+    "sourceTail": "resources-spreadsheet.xml",
+    "path": "StructureDefinition-mypatient.html",
+    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient",
+    "version": "0.2.0",
+    "name": "MyPatientName",
+    "title": "My Favorite Patient Profile",
+    "experimental": false,
+    "date": "2019-09-01",
+    "description": "This will be the description for the patient profile within the profile page",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colstu",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "fmm": "1",
+      "status": "Draft"
+    },
+    "fmm": "1",
+    "fmmSource": "FMM derived from: \r\nhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"
+  },
+  "StructureDefinition/mypractitioner": {
+    "history": false,
+    "index": 16,
+    "source": "/Users/alinbaltatescu/Documents/sample-ig/input/resources/resources-spreadsheet.xml",
+    "sourceTail": "resources-spreadsheet.xml",
+    "path": "StructureDefinition-mypractitioner.html",
+    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner",
+    "version": "0.2.0",
+    "name": "MyPractitionerName",
+    "title": "Some Practitioner profile",
+    "experimental": false,
+    "date": "2019-09-01",
+    "description": "Description for the profile page",
+    "jurisdictions": [
+      {
+        "code": "001",
+        "name": "International",
+        "flag": "001"
+      }
+    ],
+    "status": {
+      "class": "colstu",
+      "owner": "HL7 International - [Some] Work Group",
+      "link": "http://hl7.org/Special/committees/[something]",
+      "standards-status": "informative",
+      "fmm": "1",
+      "status": "Draft"
+    },
+    "fmm": "1",
+    "fmmSource": "FMM derived from: \r\nhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"
+  },
+  "Binary/logical-example": {
+    "history": false,
+    "index": 17,
+    "source": "/Users/alinbaltatescu/Documents/sample-ig/input/examples/binary-logical-example.xml",
+    "sourceTail": "binary-logical-example.xml",
+    "path": "Binary-logical-example.html"
+  },
+  "Binary/image-example": {
+    "history": false,
+    "index": 18,
+    "source": "/Users/alinbaltatescu/Documents/sample-ig/input/examples/Binary-image-example.jpg",
+    "sourceTail": "Binary-image-example.jpg",
+    "path": "Binary-image-example.html"
+  }
+}

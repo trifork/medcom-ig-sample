@@ -1,0 +1,44 @@
+{
+  "path": "http://hl7.org/fhir/R4/",
+  "canonical": "http://somewhere.org/fhir/uv/myig",
+  "igId": "example.fhir.uv.myig",
+  "igName": "YourComputableMyIGNameHere",
+  "packageId": "example.fhir.uv.myig",
+  "igVer": "0.2.0",
+  "errorCount": 10,
+  "version": "4.0.1",
+  "revision": "a53ec6ee1b",
+  "versionFull": "4.0.1-a53ec6ee1b",
+  "toolingVersion": "5.0.0-snapshot1",
+  "toolingRevision": "3",
+  "toolingVersionFull": "5.0.0-snapshot1 (3)",
+  "totalFiles": 17,
+  "processedFiles": 34,
+  "genDate": "Tue, May 24, 2022 09:31+0200",
+  "genDay": "24/05/2022",
+  "ig": {
+    "id": "example.fhir.uv.myig",
+    "name": "YourComputableMyIGNameHere",
+    "title": "Your User Friendly Name for MyIG Here",
+    "url": "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+    "version": "0.2.0",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "HL7 International - [Some] Work Group",
+    "gitstatus": "master",
+    "contact": [
+      {
+        "telecom": [
+          "http://hl7.org/Special/committees/[something]"
+        ]
+      }
+    ],
+    "date": "2022-05-24T09:31:43+02:00",
+    "description": "A brief description of what MyIG is about (probably the same text as in your readme)",
+    "fhirVersion": "4.0.1"
+  },
+  "hl7tx": "http://terminology.hl7.org",
+  "ver": {
+    "hl7tx": "http://terminology.hl7.org/3.1.0"
+  }
+}

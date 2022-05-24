@@ -1,0 +1,6 @@
+{% raw %}<div xmlns="http://www.w3.org/1999/xhtml"><h2>Contents</h2><p><code>text/x-sql</code></p><pre><code class="language-sql">SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders
+ON Customers.CustomerID=Orders.CustomerID
+ORDER BY Customers.CustomerName;
+</code></pre></div>{% endraw %}
