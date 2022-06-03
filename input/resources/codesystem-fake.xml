@@ -11,8 +11,8 @@
   <caseSensitive value="true"/>
   <content value="complete"/>
   <concept>
-    <code value="01"/>
-    <display value="CS1"/>
+    <code value="o001"/>
+    <display value="CS1ooo"/>
     <designation>
       <value value="CS2"/>
     </designation>
