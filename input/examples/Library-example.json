@@ -6,7 +6,7 @@
   "name": "Example",
   "title": "Example CQL Library",
   "status" : "draft",
-  "experimental": true,
+  "experimental": false,
   "description": "Some example library",
   "type" : {
     "coding" : [{
