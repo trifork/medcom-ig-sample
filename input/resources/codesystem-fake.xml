@@ -4,7 +4,7 @@
   <url value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake"/>
   <name value="CodeSystemFake"/>
   <title value="CodeSystem fake"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="true"/>
   <date value="2015-06-22"/>
   <description value="A fake code system"/>
